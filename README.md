@@ -1,7 +1,7 @@
 # pyRing_for_RQCBH
 Bayesian Inference for the rotating quantum corrected black hole (RQCBH) using `pyRing`. 
 
-This model differs from the Kerr black hole by including an additional quantum correction term $\frac{\alpha M}{r^2}$ in the $\Delta$ function.
+This model differs from the Kerr black hole by including an additional quantum correction term $\alpha M^2 / r^4$ in the $\Delta$ function.
 
 We have introduced a new flag **RQC** in `pyRing` for the posterior inference of RQCBH, when **RQC**$= 1$ (default 0), the code uses QNM data derived from the RQCBH model with $s=0$ perturbation for parameter estimation. The QNM data with $s=-2$ perturbation is necessary in the future.
 
