@@ -1,0 +1,10 @@
+#PBS -N pyRing_RQC_150914
+#PBS -l nodes=1:ppn=32
+#PBS -l walltime=500:23:33    
+#PBS -q sugon
+#PBS -o out.txt     
+#PBS -e err.txt  
+
+cd $PBS_O_WORKDIR
+
+pyRing --config-file gw150914_RQC_accuracy.ini
